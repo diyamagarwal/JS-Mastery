@@ -17,3 +17,8 @@ Brushing up JS and React step-by-step
 - Learned logical operators: `&&`, `||`, `!`
 - Used `if`, `else if`, `else` for branching
 - Practiced ternary operator for concise conditions
+
+## Day 3 - Loops
+
+- Learned `for`, `while`, `do...while` loops
+- Practiced using `break` and `continue` to control loops
