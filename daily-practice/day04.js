@@ -18,6 +18,21 @@ console.log(add(5, 3)); // 8
 
 //Arrow function
 const multiply = (a, b) => a*b;
+
+//Error --
+//const multiply = (a, b) => {a*b};
+
+//correct with {}
+//const multiply = (a, b) => {return a*b;};
+
+//When you use { }, JS thinks it’s a function block, not an expression.
+//Inside a block, you must explicitly use return.
+//Since you didn’t, the function doesn’t return anything → gives undefined.
+
+//Rule to Remember:
+//No { } → automatic return.
+//With { } → you must use return.
+
 console.log(multiply(4,5)); // 20
 
 //parameters and default values
