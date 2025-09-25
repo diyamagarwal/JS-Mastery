@@ -22,3 +22,10 @@ Brushing up JS and React step-by-step
 
 - Learned `for`, `while`, `do...while` loops
 - Practiced using `break` and `continue` to control loops
+
+## Day 4 - Functions
+
+- Learned function declaration, expression, and arrow functions
+- Practiced with parameters, default values, and return
+- Understood difference between console.log vs return
+- Explored scope of variables inside functions
