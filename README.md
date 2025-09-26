@@ -29,3 +29,10 @@ Brushing up JS and React step-by-step
 - Practiced with parameters, default values, and return
 - Understood difference between console.log vs return
 - Explored scope of variables inside functions
+
+## Day 5 - Arrays & Objects
+
+- Created arrays, accessed/updated elements
+- Used methods: push, pop, shift, unshift
+- Looping arrays (for, for...of, forEach)
+- Objects: key-value pairs, nested objects, array of objects
