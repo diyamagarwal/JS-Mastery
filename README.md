@@ -36,3 +36,8 @@ Brushing up JS and React step-by-step
 - Used methods: push, pop, shift, unshift
 - Looping arrays (for, for...of, forEach)
 - Objects: key-value pairs, nested objects, array of objects
+
+## Day 6 - Higher Order Array Methods
+
+- Learned about `map`, `filter`, `reduce`
+- Practiced array transformations, filtering, and aggregations
