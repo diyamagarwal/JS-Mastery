@@ -41,3 +41,7 @@ Brushing up JS and React step-by-step
 
 - Learned about `map`, `filter`, `reduce`
 - Practiced array transformations, filtering, and aggregations
+
+## Day 7 - Reduce() Deep Dive
+
+- Deep dive into reduce()

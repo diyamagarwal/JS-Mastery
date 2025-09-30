@@ -55,3 +55,41 @@ console.log("Doubled:", doubled); // [2, 4, 6, 8, 10]
 let moreNumbers = [10, 50, 3, 99, 42];
 let maxNum = moreNumbers.reduce((acc, curr) => (curr > acc ? curr : acc), moreNumbers[0]);
 console.log("Max number:", maxNum); // 99
+
+//Reduce Problems
+
+let p1nums = [1, 2, 3, 4];
+// Expected output: 1² + 2² + 3² + 4² = 30
+let p1Sol= p1nums.reduce(
+    (acc,curr)=> (acc+(curr*curr)),0
+);
+console.log("P1 Solution", p1Sol);
+
+let fruits = ["apple", "banana", "apple", "orange", "banana", "apple"];
+// Expected output: { apple: 3, banana: 2, orange: 1 }
+let p2Sol = fruits.reduce((acc, curr) => {
+    if (acc[curr]) {
+        // if fruit already exists, add 1
+        acc[curr] += 1;
+    } else {
+        // if fruit doesn’t exist, start at 1
+        acc[curr] = 1;
+    }
+    return acc; // always return the object (acc)
+}, {}); // start with an empty object!
+console.log("P2 Solution", p2Sol);
+
+let nested = [[1, 2], [3, 4], [5, 6]];
+// Expected output: [1, 2, 3, 4, 5, 6]
+let p3Sol1 = nested.reduce(
+    (acc,curr)=> {
+        return acc.concat(curr);
+    }, []
+)
+let p3Sol2 = nested.reduce(
+    (acc,curr)=> {
+         return [...acc,...curr];
+    }, []
+)
+console.log("P3 Solution 1", p3Sol1);
+console.log("P3 Solution 2", p3Sol2);
