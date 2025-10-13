@@ -45,3 +45,16 @@ Brushing up JS and React step-by-step
 ## Day 7 - Reduce() Deep Dive
 
 - Deep dive into reduce()
+
+## Day 8 - Modern JavaScript (ES6+) Features
+
+- Deep dived into `Destructuring Assignment` for arrays and objects.
+- Explored the dual roles of the three dots: `Spread (...)` for expanding/merging and `Rest (...)` for collecting arguments/properties.
+- Mastered `Template Literals` (backticks) for clean string interpolation and multi-line strings.
+
+## Day 9 - Asynchronous JavaScript (Part 1: Callbacks, Promises, Async/Await)
+
+- Understood the concept of the **Single-Threaded** nature of JS and the role of the **Event Loop**.
+- Explored **Callbacks** as the traditional async solution and recognized the problem of **Callback Hell**.
+- Mastered **Promises**, including their three states (**Pending, Fulfilled, Rejected**), and chaining with `.then()` and `.catch()`.
+- Implemented the modern **`async/await`** syntax, learning how it uses a **`try...catch`** block to handle promise rejection cleanly.
