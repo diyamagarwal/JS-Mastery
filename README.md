@@ -58,3 +58,10 @@ Brushing up JS and React step-by-step
 - Explored **Callbacks** as the traditional async solution and recognized the problem of **Callback Hell**.
 - Mastered **Promises**, including their three states (**Pending, Fulfilled, Rejected**), and chaining with `.then()` and `.catch()`.
 - Implemented the modern **`async/await`** syntax, learning how it uses a **`try...catch`** block to handle promise rejection cleanly.
+
+## Day 10 - JS Modules & Sets/Maps
+
+- Modularization: Mastered **`import`** and **`export`** (named and default) for structuring large applications.
+- Advanced Arrays: Learned about `flat()` and `flatMap()` for handling nested data.
+- Built-in Data Structures: Explored and practiced using **Sets** (for unique values) and **Maps** (for efficient key-value lookups), emphasizing their $O(1)$ efficiency.
+- Solved a data cleaning problem using `Set` to find unique elements.
