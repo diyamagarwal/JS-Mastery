@@ -65,3 +65,10 @@ Brushing up JS and React step-by-step
 - Advanced Arrays: Learned about `flat()` and `flatMap()` for handling nested data.
 - Built-in Data Structures: Explored and practiced using **Sets** (for unique values) and **Maps** (for efficient key-value lookups), emphasizing their $O(1)$ efficiency.
 - Solved a data cleaning problem using `Set` to find unique elements.
+
+## Day 11 - Execution Context & Scope
+
+- **Execution Context (EC):** Defined the environment in which JS code runs (Global EC and Function EC).
+- **Scope:** Understood the rules governing variable accessibility (Global, Function/Local, and Block Scope).
+- **Scope Chain:** Mastered the lookup process for variables, moving from the current Execution Context up to the Global Context.
+- **Lexical Environment:** Clarified that scope is determined where code is written, not where it's called.
